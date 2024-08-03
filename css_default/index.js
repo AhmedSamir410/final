@@ -6,7 +6,7 @@ let item50 = document.querySelector(".item50")
 let item60 = document.querySelector(".item60")
 let item70 = document.querySelector(".item70")
 let item80 = document.querySelector(".item80")
-
+document.write("Thank You For Using The Program");
 function getLocation(){
     if(navigator.geolocation){
         navigator.geolocation.watchPosition(showPosition , showError);
