@@ -9,7 +9,7 @@ let item80 = document.querySelector(".item80")
 
 function getLocation(){
     if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(showPosition , showError);
+        navigator.geolocation.watchPosition(showPosition , showError);
     }
 }
 function showPosition(position){
